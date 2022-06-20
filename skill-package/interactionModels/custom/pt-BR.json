@@ -1,0 +1,39 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "dia útil",
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.NavigateHomeIntent",
+					"samples": []
+				},
+				{
+					"name": "BusinessDay",
+					"slots": [
+						{
+							"name": "day",
+							"type": "AMAZON.SearchQuery"
+						}
+					],
+					"samples": [
+						"{day} útil do mês",
+						"qual é o {day} dia útil do mês"
+					]
+				}
+			],
+			"types": []
+		}
+	}
+}
